@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Simple Tic-Tac-Toe Game</h1>
+    </header>
+
+    <!-- scoreboard -->
+    <div class="score-board">
+      <div id="player1-label" class="badge">player1</div>
+      <div id="player2-label" class="badge">player2</div>
+      <span id="player1-score">0<span>:<span id="player2-score">0<span/>
+    </div>
+
+    <table id="table">
+      <tbody>
+        <tr>
+          <!-- first row-->
+          <td id="cell-1" class="cell">a</td>
+          <td id="cell-2" class="cell">b</td>
+          <td id="cell-3" class="cell">c</td>
+        </tr>
+        <tr>
+          <!-- second row-->
+          <td id="cell-4" class="cell">d</td>
+          <td id="cell-5" class="cell">e</td>
+          <td id="cell-6" class="cell">f</td>
+        </tr>
+        <tr>
+          <!-- third row-->
+          <td id="cell-7" class="cell">g</td>
+          <td id="cell-8" class="cell">h</td>
+          <td id="cell-9" class="cell">i</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="messages">fluff</div>
+    <button type="button" class="newgame" value="new game">New Game</button>
+    <input type="text" id="name1-text" name="player1" value="">
+    <input type=button id="name1-button" value="setname1">
+    <input type="text" id="name2-text" name="player2" value="">
+    <input type=button id="name2-button" value="setname2">
+  </body>
+
+</html>

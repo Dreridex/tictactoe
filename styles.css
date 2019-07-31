@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.score-board {
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: 3px solid white;
+  border-radius: 2px;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  color: white;
+}
+
+.badge {
+  padding: 3px 10px;
+  font-size: 20px;
+  background-color: #c0c0c0;
+  border-radius: 2px;
+  position: absolute;
+}
+#player1-label {
+  top: 20px;
+  left: -40px;
+}
+#player2-label {
+  top: 20px;
+  right: -40px;
+}
+
+body {
+  background-color: #767474;
+}
+
+table {
+  margin: auto;
+  margin-top: 30px;
+  position: sticky;
+  border-collapse: collapse;
+}
+
+.cell {
+  background-color: white;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  border-style: solid;
+  border-spacing: 0px;
+  font-size: 0;
+  transition: 0.3s;
+}
+
+/* colors
+p1 rgb(0, 51, 102) blue,     hover #99ccff
+p2 rgb(128, 0, 0) red,       hover #e60000 */
+.cell:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.messages {
+  margin: 50px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  font-size: 25px;
+  color: white;
+}
+
+.newgame {
+  background-color: pink;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 50px;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 3px;
+}
+
+#name1-text {
+  position: absolute;
+  top: 550px;
+  width: 150px;
+  padding: 5px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#name2-text {
+  position: absolute;
+  top: 600px;
+  width: 150px;
+  padding: 5px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#name1-button {
+  position: absolute;
+  top: 550px;
+  width: auto;
+  padding: 5px;
+  margin-left: 215px;
+  font-size: 20px;
+}
+#name2-button {
+  position: absolute;
+  top: 600px;
+  width: auto;
+  padding: 5px;
+  margin-left: 215px;
+  font-size: 20px;
+}
