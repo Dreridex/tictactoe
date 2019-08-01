@@ -1,2 +1,2 @@
 # tictactoe
-tictactoe with html,css and js
+tictactoe with html, css and js
