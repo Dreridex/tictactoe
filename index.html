@@ -10,40 +10,40 @@
 
   <body>
     <header>
-      <h1>Simple Tic-Tac-Toe Game</h1>
+      <h1>Tic-Tac-Toe</h1>
     </header>
 
     <!-- scoreboard -->
     <div class="score-board">
       <div id="player1-label" class="badge">player1</div>
       <div id="player2-label" class="badge">player2</div>
-      <span id="player1-score">0<span>:<span id="player2-score">0<span/>
+      <span id="player1-score">0</span>:<span id="player2-score">0</span>
     </div>
 
     <table id="table">
       <tbody>
         <tr>
           <!-- first row-->
-          <td id="cell-1" class="cell">a</td>
-          <td id="cell-2" class="cell">b</td>
-          <td id="cell-3" class="cell">c</td>
+          <td id="cell-1" class="cell"></td>
+          <td id="cell-2" class="cell"></td>
+          <td id="cell-3" class="cell"></td>
         </tr>
         <tr>
           <!-- second row-->
-          <td id="cell-4" class="cell">d</td>
-          <td id="cell-5" class="cell">e</td>
-          <td id="cell-6" class="cell">f</td>
+          <td id="cell-4" class="cell"></td>
+          <td id="cell-5" class="cell"></td>
+          <td id="cell-6" class="cell"></td>
         </tr>
         <tr>
           <!-- third row-->
-          <td id="cell-7" class="cell">g</td>
-          <td id="cell-8" class="cell">h</td>
-          <td id="cell-9" class="cell">i</td>
+          <td id="cell-7" class="cell"></td>
+          <td id="cell-8" class="cell"></td>
+          <td id="cell-9" class="cell"></td>
         </tr>
       </tbody>
     </table>
-    <div class="messages">fluff</div>
-    <button type="button" class="newgame" value="new game">New Game</button>
+    <div class="messages"></div>
+    <button type="button" id="new-game-button"class="new-game">New Game</button>
     <input type="text" id="name1-text" name="player1" value="">
     <input type=button id="name1-button" value="setname1">
     <input type="text" id="name2-text" name="player2" value="">
